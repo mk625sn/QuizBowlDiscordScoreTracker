@@ -25,6 +25,9 @@ namespace QuizBowlDiscordScoreTracker
         private readonly object phasesLock = new object();
         private readonly object readerLock = new object();
 
+
+
+
         public GameState()
         {
             this.phases = new LinkedList<IPhaseState>();
