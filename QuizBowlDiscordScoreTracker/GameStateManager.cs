@@ -17,7 +17,7 @@ namespace QuizBowlDiscordScoreTracker
         {
             return ImmutableList<KeyValuePair<ulong, GameState>>.Empty.AddRange(this.gamesInChannel);
         }
-
+        //tr
         public bool TryCreate(ulong channelId, out GameState gameState)
         {
             gameState = new GameState();
