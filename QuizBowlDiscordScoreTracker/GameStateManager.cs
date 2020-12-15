@@ -29,7 +29,7 @@ namespace QuizBowlDiscordScoreTracker
             gameState = null;
             return false;
         }
-
+        //pasteka
         public bool TryRemove(ulong channelId)
         {
             return this.gamesInChannel.TryRemove(channelId, out _);
